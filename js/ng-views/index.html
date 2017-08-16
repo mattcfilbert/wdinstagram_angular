@@ -1,6 +1,6 @@
 <a data-ui-sref="grumbleNew">New Post</a>
 
-<h2>These are all the Grumbles</h2>
+<h2>~posts~</h2>
 
 <div ng-repeat="grumble in vm.grumbles | orderBy:'-created_at'">
   <p><a ui-sref="grumbleShow({id: grumble.id})">{{grumble.body}}</a></p>
