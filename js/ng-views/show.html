@@ -1,0 +1,5 @@
+<h2>~by {{vm.grumble.author}}</h2>
+<img ng-src="{{vm.grumble.photo_url}}" alt="Photo for {{vm.grumble.author}}'s post'">
+<p>{{vm.grumble.body}}</p>
+
+<a ui-sref="grumbleEdit({id: vm.grumble.id})">Edit Post</a>
